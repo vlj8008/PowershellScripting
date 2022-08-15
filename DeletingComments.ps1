@@ -25,8 +25,10 @@ function DeleteCommentLines
     foreach ($line in $lines)
     {
 
-       $line
+       
        # need code here to delete the line. 
+
+       remove-item $line -Force
         
     }
     
